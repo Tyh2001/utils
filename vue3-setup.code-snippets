@@ -1,0 +1,19 @@
+{
+	"Print to console": {
+		"prefix": "setup",
+		"body": [
+			"<template>",
+			"",
+			"</template>",
+			"",
+			"<script setup>",
+			"",
+			"</script>",
+			"",
+			"<style scoped>",
+			"</style>",
+			""
+		],
+		"description": "Log output to console"
+	}
+}
