@@ -1,63 +1,98 @@
 {
-    "open-in-browser.default": "chrome",
-    "editor.detectIndentation": false,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.showTabs": true,
-    "editor.tabSize": 2,
-    "eslint.validate": [
-      "javascript",
-      "javascriptreact",
-      "html",
-      "vue",
-    ],
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "prettier.semi": false, // 去掉代码结尾的分号
-    "prettier.singleQuote": true, // 使用单引号替代双引号
-    "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 让函数(名)和后面的括号之间加个空格
-    "[vue]": {
-      "editor.defaultFormatter": "Vue.volar"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "editor.cursorSmoothCaretAnimation": true,
-    "[javascript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "explorer.compactFolders": false,
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "explorer.confirmDelete": false,
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "[css]": {
-      "editor.defaultFormatter": "Wscats.eno"
-    },
-    "[less]": {
-      "editor.defaultFormatter": "Wscats.eno"
-    },
-    "[scss]": {
-      "editor.defaultFormatter": "Wscats.eno"
-    },
-    "[typescript]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "workbench.startupEditor": "none",
-    "workbench.colorTheme": "tyh-theme-dark",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "cSpell.userWords": [
-      "stackoverflow",
-      "vite",
-      "zhifubao"
-    ],
-    "[javascriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "sass.format.debug": true,
-    "window.zoomLevel": 1,
-  }
+  "open-in-browser.default": "chrome",
+  "editor.detectIndentation": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.showTabs": true,
+  "editor.tabSize": 2,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 80,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 让函数(名)和后面的括号之间加个空格
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "auto", // 仅在超出行长度时才对属性进行换行
+    }
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.cursorSmoothCaretAnimation": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "explorer.compactFolders": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[css]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "[less]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.userWords": [
+    "composables",
+    "docsearch",
+    "jiazailoading",
+    "shiki",
+    "stackoverflow",
+    "tsmango",
+    "vite",
+    "vitejs",
+    "vitepress",
+    "vitest",
+    "vueuse",
+    "zhifubao"
+  ],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "sass.format.debug": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracketPairColorizer.depreciation-notice": false,
+  "workbench.colorTheme": "tyh-theme-dark",
+  "window.zoomLevel": 1,
+}
