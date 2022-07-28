@@ -69,20 +69,6 @@
   },
   "workbench.startupEditor": "none",
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "cSpell.userWords": [
-    "composables",
-    "docsearch",
-    "jiazailoading",
-    "shiki",
-    "stackoverflow",
-    "tsmango",
-    "vite",
-    "vitejs",
-    "vitepress",
-    "vitest",
-    "vueuse",
-    "zhifubao"
-  ],
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
