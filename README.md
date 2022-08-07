@@ -1,10 +1,10 @@
 # Utils
 
-## 前言
+## 🤙 前言
 
 这里是我常用的一些开发配置
 
-## 文件说明
+## ☘️ 文件说明
 
 - Chrome 插件：我使用的一些谷歌插件
 - vsCode 插件：我使用的一些 vscode 插件
@@ -15,11 +15,11 @@
 - vue3.code-snippets vue3 用户代码片段 1
 - vue3-setup.code-snippets vue3 用户代码片段 2
 
-## devtools 安装方式
+## 🏝️ Devtools 安装方式
 
 [devtools](https://devtools.vuejs.org) 官网
 
 1. 在谷歌浏览器打开 chrome://extensions/
-2. 开启【开发者模式】
-3. 点击【加载已解压的扩展程序】
+2. 开启`开发者模式`
+3. 点击`加载已解压的扩展程序`
 4. 选择下载的用解压工具解压的 vue-devtools 文件，即可
