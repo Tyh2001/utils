@@ -5,10 +5,12 @@
   "workbench.editor.showTabs": true,
   "editor.tabSize": 2,
   "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "html",
     "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
@@ -30,19 +32,13 @@
   "prettier.useTabs": false,
   "prettier.vueIndentScriptAndStyle": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 让函数(名)和后面的括号之间加个空格
-  "vetur.format.defaultFormatter.js": "vscode-typescript",
-  "vetur.format.defaultFormatterOptions": {
-    "js-beautify-html": {
-      "wrap_attributes": "auto", // 仅在超出行长度时才对属性进行换行
-    }
-  },
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -56,10 +52,7 @@
   },
   "explorer.confirmDragAndDrop": false,
   "[css]": {
-    "editor.defaultFormatter": "Wscats.eno"
-  },
-  "[less]": {
-    "editor.defaultFormatter": "Wscats.eno"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -73,12 +66,25 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "sass.format.debug": true,
-  "tabnine.experimentalAutoImports": true,
-  "workbench.editor.splitInGroupLayout": "vertical",
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "bracketPairColorizer.depreciation-notice": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "cSpell.userWords": ["pdfurl"],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "tabnine.experimentalAutoImports": true,
+  "json.schemaDownload.enable": false,
+  "[less]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.editor.untitled.hint": "hidden",
   "workbench.colorTheme": "tyh-theme-dark",
-  "window.zoomLevel": 1,
+  "solidity.telemetry": false,
+  "[solidity]": {
+    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
+  },
+  "extensions.ignoreRecommendations": true
 }
