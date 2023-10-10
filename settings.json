@@ -33,7 +33,7 @@
   "prettier.vueIndentScriptAndStyle": true,
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true, // 让函数(名)和后面的括号之间加个空格
   "[vue]": {
-    "editor.defaultFormatter": "Vue.volar"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -86,5 +86,18 @@
   "[solidity]": {
     "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
   },
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript"
+  },
+  "emmet.includeLanguages": {
+    "wxml": "html"
+  },
+  "minapp-vscode.disableAutoConfig": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact"
 }
