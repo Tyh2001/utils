@@ -65,27 +65,20 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "sass.format.debug": true,
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "cSpell.userWords": ["pdfurl"],
   "typescript.updateImportsOnFileMove.enabled": "never",
   "tabnine.experimentalAutoImports": true,
   "json.schemaDownload.enable": false,
   "[less]": {
     "editor.defaultFormatter": "vscode.css-language-features"
   },
-  "workbench.iconTheme": "vscode-icons",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.colorTheme": "tyh-theme-dark",
-  "solidity.telemetry": false,
-  "[solidity]": {
-    "editor.defaultFormatter": "NomicFoundation.hardhat-solidity"
-  },
   "extensions.ignoreRecommendations": true,
   "files.associations": {
     "*.cjson": "jsonc",
@@ -99,5 +92,6 @@
   "security.workspace.trust.untrustedFiles": "open",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "window.menuBarVisibility": "compact"
+  "window.menuBarVisibility": "compact",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
 }
